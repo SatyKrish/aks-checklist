@@ -6,7 +6,11 @@
     "start": "gulp dev",
     "build": "gulp build",
     "test": "gulp test",
-    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   },
   "repository": {
     "type": "git",
